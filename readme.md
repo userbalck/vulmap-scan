@@ -1,130 +1,43 @@
 ## 🌟 Vulmap - Web vulnerability scanning and verification tools
-<a href="https://github.com/zhzyker/vulmap"><img alt="Release" src="https://img.shields.io/badge/python-3.8+-blueviolet"></a>
-<a href="https://github.com/zhzyker/vulmap"><img alt="Release" src="https://img.shields.io/badge/Version-vulmap 0.7-yellow"></a>
-<a href="https://github.com/zhzyker/vulmap"><img alt="Release" src="https://img.shields.io/badge/LICENSE-GPL-ff69b4"></a>
-![GitHub Repo stars](https://img.shields.io/github/stars/zhzyker/vulmap?color=gree)
-![GitHub forks](https://img.shields.io/github/forks/zhzyker/vulmap)
 
+[zhzyker/vulmap： Vulmap 是一款 web 漏洞扫描和验证工具， 可对 webapps 进行漏洞扫描， 并且具备漏洞验证功能 (github.com)](https://github.com/zhzyker/vulmap)
 
-[[Click here for the English Version]](https://github.com/zhzyker/vulmap/blob/main/readme.us-en.md)  
-> Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞利用功能, 目前支持的 webapps 包括 activemq, flink, shiro, solr, struts2, tomcat, unomi, drupal, elasticsearch, fastjson, jenkins, nexus, weblogic, jboss, spring, thinkphp
+本项目只是增加OA 漏洞
 
-> Vulmap 将漏洞扫描与验证（漏洞利用）结合到了一起, 及大程度便于测试人员在发现漏洞后及时进行下一步操作, 工具追求于于高效、便捷  
-高效: 逐步开发中慢慢引入了批量扫描、Fofa、Shodan 批量扫描, 且支持多线程默认开启协程, 以最快的速度扫描大量资产  
-便捷: 发现漏洞即可利用, 大量资产扫描可多格式输出结果
+## 20220724：
 
-## 🛒 Installation
-操作系统中必须有 python3, 推荐 python3.8 或者更高版本
-```bash
-# git 或前往 release 获取原码
-git clone https://github.com/zhzyker/vulmap.git
-# 安装所需的 python 依赖
-pip3 install -r requirements.txt
-# Linux & MacOS & Windows
-python3 vulmap.py -u http://example.com
-```
-配置 Fofa Api && Shodan Api && Ceye  
-
-使用 Fofa or Shodan 需要修改 vulmap.py 中的配置信息：  
-
-* Fofa info: https://fofa.so/user/users/info  
-```bash
-# 把xxxxxxxxxx替换成fofa的邮箱
-globals.set_value("fofa_email", "xxxxxxxxxx")  
-# 把xxxxxxxxxx替换成fofa的key
-globals.set_value("fofa_key", "xxxxxxxxxx")  
-```
-* Shodan key: https://account.shodan.io  
-```bash
-# 把xxxxxxxxxx替换成自己shodan的key
-globals.set_value("shodan_key", "xxxxxxxxxx")  
-```
-* Ceye info: http://ceye.io  
-```bash
-# 把xxxxxxxxxx替换为自己的域名
-globals.set_value("ceye_domain","xxxxxxxxxx")  
-# 把xxxxxxxxxx替换自己ceye的token
-globals.set_value("ceye_token", "xxxxxxxxxx")  
 ```
 
-## 📑 Licenses
-在原有协议[LICENSE](https://github.com/zhzyker/vulmap/blob/main/LICENSE)中追加以下免责声明。若与原有协议冲突均以免责声明为准。  
-
-本工具禁止进行未授权商业用途，禁止二次开发后进行未授权商业用途。  
-
-本工具仅面向合法授权的企业安全建设行为，在使用本工具进行检测时，您应确保该行为符合当地的法律法规，并且已经取得了足够的授权。  
-
-如您在使用本工具的过程中存在任何非法行为，您需自行承担相应后果，我们将不承担任何法律及连带责任。 
-
-在使用本工具前，请您务必审慎阅读、充分理解各条款内容，限制、免责条款或者其他涉及您重大权益的条款可能会以加粗、加下划线等形式提示您重点注意。 除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要使用本工具。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。  
-
-
-## 📺 Video demo
-> YouTube:  https://www.youtube.com/watch?v=g4czwS1Snc4  
-> Bilibili: https://www.bilibili.com/video/BV1Fy4y1v7rd  
-> Gif: ![https://github.com/zhzyker/vulmap/blob/main/images/vulmap-0.5-demo-gif.gif](https://github.com/zhzyker/vulmap/blob/main/images/vulmap-0.5-demo-gif.gif)
-
-
-## 🙋 Discussion
-* Vulmap Bug 反馈或新功能建议[点我](https://github.com/zhzyker/vulmap/issues)
-* Twitter: https://twitter.com/zhzyker
-* WeChat: ~二群已开放~ 又满了，再加我拉吧    
-<p>
-    <img alt="QR-code" src="https://github.com/zhzyker/zhzyker/blob/main/my-wechat.jpg" width="20%" height="20%" style="max-width:100%;">
-</p>
-
-## 🔧 Options
-``` 
-可选参数:
-  -h, --help            显示此帮助消息并退出
-  -u URL, --url URL     目标 URL (e.g. -u "http://example.com")
-  -f FILE, --file FILE  选择一个目标列表文件,每个url必须用行来区分 (e.g. -f "/home/user/list.txt")
-  --fofa keyword        使用 fofa api 批量扫描 (e.g. --fofa "app=Apache-Shiro")
-  --shodan keyword      使用 shodan api 批量扫描 (e.g. --shodan "Shiro")
-  -m MODE, --mode MODE  模式支持"poc"和"exp",可以省略此选项,默认进入"poc"模式
-  -a APP [APP ...]      指定 webapps（e.g. "weblogic"）不指定则自动指纹识别
-  -c CMD, --cmd CMD     自定义远程命令执行执行的命令,默认是echo随机md5
-  -v VULN, --vuln VULN  利用漏洞,需要指定漏洞编号 (e.g. -v "CVE-2019-2729")
-  -t NUM, --thread NUM  扫描线程数量,默认10线程
-  --dnslog server       dnslog 服务器 (hyuga,dnslog,ceye) 默认自动轮询
-  --output-text file    扫描结果输出到 txt 文件 (e.g. "result.txt")
-  --output-json file    扫描结果输出到 json 文件 (e.g. "result.json")
-  --proxy-socks SOCKS   使用 socks 代理 (e.g. --proxy-socks 127.0.0.1:1080)
-  --proxy-http HTTP     使用 http 代理 (e.g. --proxy-http 127.0.0.1:8080)
-  --user-agent UA       允许自定义 User-Agent
-  --fofa-size SIZE      fofa api 调用资产数量，默认100，可用(1-10000)
-  --delay DELAY         延时时间,每隔多久发送一次,默认 0s
-  --timeout TIMEOUT     超时时间,默认 5s
-  --list                显示支持的漏洞列表
-  --debug               exp 模式显示 request 和 responses, poc 模式显示扫描漏洞列表
-  --check               目标存活检测 (on and off), 默认是 on
+ #fangwei
+ 泛微 E-Bridge 云桥任意文件读取
+ 泛微e-cology_OA系统的WorkflowCenterTreeData接口Oracle数据库的SQL注入2
+ 泛微OA Bsh 远程代码执行漏洞 CNVD-2019-32204
+ 泛微E-Cology WorkflowServiceXml RCE
+ 泛微OA: Loginssoo接口SQL注入
+ 泛微OA V9 getSqlData存在SQLI注入
+ 
+  #通达OA
+  通达OA v11.x-v11.5任意用户登录2017
+  通达OA v11.x-v11.5任意用户登录2011
+  通达OA v11.7 在线用户登录漏洞
+  通达OA v11.6 任意文件删除&RCE
+  
+  #用友
+  用友GRP-u8存在XXE漏洞CNNVD-201610-923
+  用友 U8 OA test.jsp文件存在 SQL
+  用友 NC XbrlPersistenceServlet反序列化_rce
+  用友 NC bsh.servlet.BshServlet远程命令执行漏洞
+  
+  #致远
+  致远OA A8-m 存在sql语句页面回显功能
+  致远 OA A8 htmlofficeservlet RCE漏洞 CNVD-2019-19299
+  致远OA ajax.do登录绕过 任意文件上传
+  致远OA getSessionList.jsp Session泄漏漏洞
+  致远OA thirdpartyController  Session泄露 任意文件上传漏洞
+  致远OA存在任意文件下载漏洞
 ```
 
-## 🐾 Examples
-```bash
-# 测试所有漏洞 poc 不指定 -a all 将默认开启指纹识别
-python3 vulmap.py -u http://example.com
 
-# 检查站点是否存在 struts2 漏洞
-python3 vulmap.py -u http://example.com -a struts2
-
-# 对 http://example.com:7001 进行 WebLogic 的 CVE-2019-2729 漏洞利用
-python3 vulmap.py -u http://example.com:7001 -v CVE-2019-2729
-python3 vulmap.py -u http://example.com:7001 -m exp -v CVE-2019-2729
-
-# 批量扫描 list.txt 中的 url
-python3 vulmap.py -f list.txt
-
-# 扫描结果导出到 result.json
-python3 vulmap.py -u http://example.com:7001 --output-json result.json
-
-# 调用 fofa api 批量扫描
-python3 vulmap.py --fofa app=Apache-Shiro
-python vulmap.py --fofa app=Apache-Shiro
-python vulmap.py -u http://95.111.235.42:8090/ -a atlassian --output-text c3.txt
-
-python vulmap.py -f c.txt -a atlassian --output-text c3.txt
-```
 
 ## 🍵 Vulnerabilitys List
 <details>
@@ -216,3 +129,6 @@ python vulmap.py -f c.txt -a atlassian --output-text c3.txt
 docker build -t vulmap/vulmap .
 docker run --rm -ti vulmap/vulmap  python vulmap.py -u https://www.example.com
 ```
+
+
+
