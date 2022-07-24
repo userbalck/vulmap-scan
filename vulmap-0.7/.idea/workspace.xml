@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3bc71ac-9aee-4df7-80fe-aa6c60e81c5f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xAydl0MHii0VHsNYy1YF93s4G9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportQtDebugging" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.OaZhiyuan">
+    <configuration name="亿赛通 电子文档安全管理系统远程命令执行漏洞 -for" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vulmap-0.7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/private/文库/p0/docs/Web安全/亿赛通电子文档安全管理系统/POC" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/private/文库/p0/docs/Web安全/亿赛通电子文档安全管理系统/POC/亿赛通 电子文档安全管理系统远程命令执行漏洞 -for.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OaZhiyuan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vulmap-0.7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/payload" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/payload/OaZhiyuan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vulmap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vulmap-0.7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vulmap.py" />
+      <option name="PARAMETERS" value="-u http://218.77.55.88:8888/ -a zhiyuan" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.vulmap" />
+      <item itemvalue="Python.亿赛通 电子文档安全管理系统远程命令执行漏洞 -for" />
+      <item itemvalue="Python.OaZhiyuan" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.OaZhiyuan" />
+        <item itemvalue="Python.vulmap" />
+        <item itemvalue="Python.亿赛通 电子文档安全管理系统远程命令执行漏洞 -for" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3bc71ac-9aee-4df7-80fe-aa6c60e81c5f" name="Default Changelist" comment="" />
+      <created>1629812276417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629812276417</updated>
+      <workItem from="1629812277628" duration="640000" />
+      <workItem from="1629814134692" duration="1586000" />
+      <workItem from="1629863620560" duration="3000" />
+      <workItem from="1630078956395" duration="1089000" />
+      <workItem from="1630139021992" duration="2910000" />
+      <workItem from="1635526702557" duration="1358000" />
+      <workItem from="1635563000168" duration="92000" />
+      <workItem from="1636460715564" duration="2570000" />
+      <workItem from="1636513465589" duration="54000" />
+      <workItem from="1637309779319" duration="1405000" />
+      <workItem from="1637327988841" duration="7898000" />
+      <workItem from="1637479803551" duration="4462000" />
+      <workItem from="1637484729460" duration="7210000" />
+      <workItem from="1643269807669" duration="1038000" />
+      <workItem from="1643377150220" duration="39000" />
+      <workItem from="1643441241969" duration="37000" />
+      <workItem from="1650980750444" duration="1483000" />
+      <workItem from="1658631710953" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643270349403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1641" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637483316619" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1643270349403" />
+    <state x="-1180" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1637330750072">
+      <screen x="-1920" y="1" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637330750072" />
+    <state x="-1252" y="133" key="#vulmap" timestamp="1637330825035">
+      <screen x="-1920" y="1" width="1920" height="1040" />
+    </state>
+    <state x="-1252" y="133" key="#vulmap/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637330825035" />
+    <state x="414" y="330" key="FileChooserDialogImpl" timestamp="1643441275801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1234" y="211" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1635563089352" />
+    <state x="-1403" y="417" key="FileChooserDialogImpl/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637500181751" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1636513518426" />
+    <state x="414" y="330" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1643441275801" />
+    <state width="1493" height="54" key="GridCell.Tab.0.bottom" timestamp="1643270849868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483558047" />
+    <state width="1493" height="54" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643270849868" />
+    <state width="1493" height="54" key="GridCell.Tab.0.center" timestamp="1643270849868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.0.center/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.0.center/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483558047" />
+    <state width="1493" height="54" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643270849868" />
+    <state width="1493" height="54" key="GridCell.Tab.0.left" timestamp="1643270849868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.0.left/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.0.left/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483558047" />
+    <state width="1493" height="54" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643270849868" />
+    <state width="1493" height="54" key="GridCell.Tab.0.right" timestamp="1643270849868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.0.right/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.0.right/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483558047" />
+    <state width="1493" height="54" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643270849868" />
+    <state width="1493" height="54" key="GridCell.Tab.1.bottom" timestamp="1643270849869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483557959" />
+    <state width="1493" height="54" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643270849869" />
+    <state width="1493" height="54" key="GridCell.Tab.1.center" timestamp="1643270849868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.1.center/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.1.center/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483557959" />
+    <state width="1493" height="54" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1643270849868" />
+    <state width="1493" height="54" key="GridCell.Tab.1.left" timestamp="1643270849868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.1.left/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.1.left/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483557959" />
+    <state width="1493" height="54" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1643270849868" />
+    <state width="1493" height="54" key="GridCell.Tab.1.right" timestamp="1643270849869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="188" key="GridCell.Tab.1.right/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484449726" />
+    <state width="1493" height="385" key="GridCell.Tab.1.right/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483557959" />
+    <state width="1493" height="54" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1643270849869" />
+    <state x="369" y="108" key="SettingsEditor" timestamp="1643269837129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1459" y="162" key="SettingsEditor/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637480255619" />
+    <state x="369" y="108" key="SettingsEditor/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483555019" />
+    <state x="369" y="108" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1643269837129" />
+    <state x="0" y="0" width="1509" height="882" key="dock-window-1" timestamp="1637484075426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="1509" height="882" key="dock-window-1/0.0.1536.824/-1920.1.1920.1040@-1920.1.1920.1040" timestamp="1637484075426" />
+    <state x="0" y="0" width="1509" height="882" key="dock-window-1/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1637483594789" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/payload/OaZhiyuan.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/payload/OaZhiyuan.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vulmap_0_7$OaZhiyuan.coverage" NAME="OaZhiyuan Coverage Results" MODIFIED="1658631734964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/payload" />
+    <SUITE FILE_PATH="coverage/vulmap_0_7$vulmap.coverage" NAME="vulmap Coverage Results" MODIFIED="1643270360557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/vulmap_0_7$___for.coverage" NAME="亿赛通 电子文档安全管理系统远程命令执行漏洞 -for Coverage Results" MODIFIED="1637336926980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/private/文库/p0/docs/Web安全/亿赛通电子文档安全管理系统/POC" />
+    <SUITE FILE_PATH="coverage/vulmap_0_7$core.coverage" NAME="core Coverage Results" MODIFIED="1637331966405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
+  </component>
+</project>
